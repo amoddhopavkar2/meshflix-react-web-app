@@ -5,7 +5,7 @@ import "./home.scss";
 const Home = () => {
   return <div className="wd-home">
     <Navbar />
-    <Featured />
+    <Featured type="series" />
   </div>;
 };
 
