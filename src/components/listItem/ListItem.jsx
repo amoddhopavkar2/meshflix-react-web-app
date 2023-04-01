@@ -12,7 +12,7 @@ const ListItem = (index) => {
   return (
     <div
       className="wd-list-item"
-      style={{left: isHovered && index * 225 - 50}}
+      style={{left: isHovered && index * 225 - 50 + index * 2.5}}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
